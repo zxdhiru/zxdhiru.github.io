@@ -62,9 +62,25 @@
             messagingSenderId: "500644115581",
             appId: "1:500644115581:web:383390b2410e27cfd8ad14"
           };
+
+        
+        
+        const spNameStored = localStorage.getItem("spName");
+        
+        const fpNameStored = localStorage.getItem("fpName");
+        
         
           // Initialize Firebase
           const app = initializeApp(firebaseConfig);
+        import { getDatabase, ref, set } from "firebase/database";
+
+        function writeUserData(fpName, spName) {
+          const db = getDatabase();
+          set(ref(db, 'users/' + userId), {
+            fpName: fpNameStored,
+            spName: spNameStored
+          });
+        }
     </script>
 </body>
 </html>
