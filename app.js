@@ -8,18 +8,14 @@ const appSettings = {
 // Initialize Firebase
 const app = initializeApp(appSettings);
 const database = getDatabase(app);
-const fUsersInDB = ref(database,  'fpName');
-const sUsersInDB = ref(database,  'spName');
-const quoteInDB = ref(database,  'quote');
+const UsersInDB = ref(database,  'user');
 
 const fpNameStored = localStorage.getItem("fpName");
 const spNameStored = localStorage.getItem("spName");
 const storageQuote = localStorage.getItem("chosenQuote");
 
-
+const datas = { firstUser: fpNameStored, secondUser: spNameStored, quote: storageQuote };
 
 document.addEventListener("DOMContentLoaded", function() {
-    push(fUsersInDB,fpNameStored);
-    push(sUsersInDB,spNameStored);
-    push(quoteInDB,storageQuote);
+    push(UsersInDB,datas);
 })
