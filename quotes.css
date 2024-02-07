@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bonheur Royale', cursive;
+    text-decoration: none;
+}
+body {
+    /* height: 100vh; */
+    width: 100%;
+    background-color: #ce4053;
+}
 :root{
     --primary: #4be1ec;
     --secondary: #cb5eee;
     --white: #fff;
     --gray: #9b9b9b;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main{
     flex-direction: column;
@@ -14,6 +35,8 @@
     font-size: 24px;
     transform: rotate(-2deg);
     border-bottom: 2px dotted var(--white);
+    border-radius: 1rem;
+    padding: 0.5rem;
 }
 .container {
     display: grid;
@@ -61,6 +84,15 @@
 lord-icon{
     width: 120px;
     height: 120px;
+}
+.copyright {
+    font-size: 1.5rem;
+    color: var(--white);
+    font-family: 'Protest';
+    transform: rotate(-1deg);
+    border-bottom: 2px dotted var(--white);
+    border-radius: 1rem;
+    padding: 0.4rem;
 }
 @media only screen and (max-width: 400px) {
     .container {

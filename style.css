@@ -20,11 +20,12 @@ body {
   --gray: #9b9b9b;
 }
 .main {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .form__group {
   position: relative;
@@ -115,4 +116,16 @@ h2,select {
 }
 option {
   font-family: 'Poppins',sans-serif;
+}
+.copyright {
+  font-size: 1.5rem;
+  color: var(--white);
+  font-family: 'Protest';
+  transform: rotate(-1deg);
+  border-bottom: 2px dotted var(--white);
+  border-radius: 1rem;
+  padding: 0.4rem;
+  position: absolute;
+  bottom: 10px;
+  left: 20%;
 }

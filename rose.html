@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Rose Day</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="quotes.css">
+    <!-- <link rel="stylesheet" href="quotes.css"> -->
     <link rel="stylesheet" href="days.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
@@ -47,40 +46,5 @@
 
     <script src="./quotes.js"></script>
     <script src="https://cdn.lordicon.com/lordicon.js"></script>
-    <script type="module">
-          // Import the functions you need from the SDKs you need
-          import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-          // TODO: Add SDKs for Firebase products that you want to use
-          // https://firebase.google.com/docs/web/setup#available-libraries
-        
-          // Your web app's Firebase configuration
-          const firebaseConfig = {
-            apiKey: "AIzaSyBf9C_aspGj8TcfsHtxnauJHuNbBA4cbLM",
-            authDomain: "valentinee.firebaseapp.com",
-            projectId: "valentinee",
-            storageBucket: "valentinee.appspot.com",
-            messagingSenderId: "500644115581",
-            appId: "1:500644115581:web:383390b2410e27cfd8ad14"
-          };
-
-        
-        
-        const spNameStored = localStorage.getItem("spName");
-        
-        const fpNameStored = localStorage.getItem("fpName");
-        
-        
-          // Initialize Firebase
-          const app = initializeApp(firebaseConfig);
-        import { getDatabase, ref, set } from "firebase/database";
-
-        function writeUserData(fpName, spName) {
-          const db = getDatabase();
-          set(ref(db, 'users/' + userId), {
-            fpName: fpNameStored,
-            spName: spNameStored
-          });
-        }
-    </script>
 </body>
 </html>

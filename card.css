@@ -1,5 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Poppins:wght@300;400;500;600&display=swap');
+
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bonheur Royale', cursive;
     text-decoration: none;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+}
+.main h2 {
+    color: var(--white);
+    letter-spacing: 2px;
+    font-size: 24px;
+    transform: rotate(-2deg);
+    border-bottom: 2px dotted var(--white);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+:root{
+    --primary: #4be1ec;
+    --secondary: #cb5eee;
+    --white: #fff;
+    --gray: #9b9b9b;
 }
 a {
     color: #e727aa;
@@ -26,7 +57,7 @@ body {
     justify-content: center;
     flex-direction: column;
     position: relative;
-    background-size: contain;
+    background-size: cover;
 }
 .message {
     width: 60%;
@@ -34,7 +65,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(20px);
     padding: 5rem 2rem;
     border-radius: 1rem;
 }
@@ -53,6 +84,15 @@ body {
 #spName,#fpName {
     text-transform: capitalize;
     letter-spacing: 2.5px;
+}
+.copyright {
+    font-size: 1.5rem;
+    color: var(--white);
+    font-family: 'Protest';
+    transform: rotate(-1deg);
+    border-bottom: 2px dotted var(--white);
+    border-radius: 1rem;
+    padding: 0.4rem;
 }
 
 @media only screen and (max-width: 400px) {
