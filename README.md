@@ -1,4 +1,3 @@
-
 # Valentine's Week Message Sender
 
 Welcome to the Valentine's Week Message Sender! This web application allows couples to create and send personalized messages and quotes to their partners during the Valentine's week. Users can simply follow a few easy steps to craft a heartfelt message for their loved ones.
