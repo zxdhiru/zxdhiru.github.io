@@ -5,7 +5,7 @@ Welcome to the Valentine's Week Message Sender! This web application allows coup
 
 # How to Use
 
-## 🔗 Links
+### 🔗 Links
 https://zxdhiru.github.io/
 
 ### Enter Names: 
