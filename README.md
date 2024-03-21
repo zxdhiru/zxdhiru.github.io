@@ -47,6 +47,11 @@ Contributions are welcome! If you'd like to enhance this project or add new feat
 # License
 This project is licensed under the MIT License. Feel free to use and modify the code as per the terms of the license.
 
+## Author
+
+- Github [@zxdhiru](https://www.github.com/zxdhiru)
+- Instagram [@zxdhiru](https://www.instagram.com/zxdhiru)
+- LinkedIn [@zxdhiru](https://www.linkedin.com/in/zxdhiru)
 
 ## 
 Give your loved ones the gift of personalized messages this Valentine's week! Spread love and happiness with the Valentine's Week Message Sender. Also if you like this project, don't forget to hit the start button💌❤️
