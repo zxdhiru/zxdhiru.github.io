@@ -22,19 +22,19 @@ Once you're satisfied with your message, hit the send button to deliver it to yo
 ####Personalized Messages: 
 Tailor messages specifically for your partner.
 
-#### Pre-designed Quotes: Choose from a selection of romantic quotes.
+- #### Pre-designed Quotes: Choose from a selection of romantic quotes.
 
-#### Custom Messages: Write your own heartfelt messages for a personal touch.
+- #### Custom Messages: Write your own heartfelt messages for a personal touch.
 
-#### User-friendly Interface: Simple and intuitive design for easy navigation.
+- #### User-friendly Interface: Simple and intuitive design for easy navigation.
 
-#### Quick and Easy: Send messages in just a few clicks.
+- #### Quick and Easy: Send messages in just a few clicks.
 
 # Technologies Used
 
-#### HTML
-#### CSS
-#### Javascript
+- #### HTML
+- #### CSS
+- #### Javascript
 
 ## 
 
@@ -49,4 +49,4 @@ This project is licensed under the MIT License. Feel free to use and modify the 
 
 
 ## 
-Give your loved ones the gift of personalized messages this Valentine's week! Spread love and happiness with the Valentine's Week Message Sender. 💌❤️
+Give your loved ones the gift of personalized messages this Valentine's week! Spread love and happiness with the Valentine's Week Message Sender. Also if you like this project, don't forget to hit the start button💌❤️
