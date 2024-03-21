@@ -19,7 +19,7 @@ Once you're satisfied with your message, hit the send button to deliver it to yo
 
 # Features
 
-####Personalized Messages: 
+#### Personalized Messages: 
 Tailor messages specifically for your partner.
 
 - #### Pre-designed Quotes: Choose from a selection of romantic quotes.
